@@ -1,0 +1,78 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.sin-padding-margin{
+    padding: 0;
+}
+.logo{
+    color: blueviolet;
+}
+.contacto{
+    background-color: blueviolet;
+    color: beige;
+    font-weight: 400;
+}
+#menu{
+    font-size: 18px;
+    font-weight: 600;
+}
+#main{
+    background-image: linear-gradient( to right,#fff,rgb(170, 167, 167));
+}
+.tamaño{
+    width: 300px;
+}
+.tamaño-parrafo{
+    font-size: 0.9rem;
+}
+.borrado{
+    display: none;
+}
+
+
+
+/*<<<<<<<<<<<<Media Queri>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media only screen and (min-width:1000px){
+    #intro-title{
+        width: 70%;
+    }
+    #intro{
+        width: 50% !important;
+    }
+    .tamaño{
+        width: 400px;
+    }
+    #footer{
+        display: flex;
+        justify-content: center;
+    }
+    #footer-left{
+        margin: 0 !important;
+        text-align: justify !important;
+        width: 32% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 3rem;
+    }
+    #footer-intro{
+        font-size: 1rem !important;
+        width: 90%;
+    }
+    .borrado{
+        display: block;
+    }
+    #footer-center{
+        display: flex;
+        justify-content: center;
+    }
+    #footer-right{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
