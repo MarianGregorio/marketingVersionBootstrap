@@ -31,20 +31,33 @@ li{
 .borrado{
     display: none;
 }
+.article-info{
+    background-color: blueviolet;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(170, 167, 167);
+    color: rgb(170, 167, 167);
+}
 
 
 
 /*<<<<<<<<<<<<Media Queri>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media only screen and (min-width:1000px){
-    #intro-title{
+    .intro-title{
         width: 70%;
     }
-    #intro{
+    .intro{
         width: 50% !important;
+    }
+    .ubicacion{
+        margin-top: 50px;
     }
     .tamaño{
         width: 400px;
     }
+    .titulo-tamaño{
+        font-size: 1.7rem!important;
+    }
+    
     #footer{
         display: flex;
         justify-content: center;
