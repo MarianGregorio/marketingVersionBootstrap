@@ -43,6 +43,16 @@ li{
     border-radius: 50%;
     box-shadow: 2px 2px 3px rgb(170, 167, 167);
 }
+.sombra{
+    box-shadow: 5px 5px 5px rgb(170, 167, 167);
+}
+.negrita{
+    color: dimgray;
+    font-weight: bold;
+}
+.expansion{
+    height: 100vh;
+}
 
 
 
@@ -66,7 +76,9 @@ li{
     .parrafo-tamaño{
         font-size:1rem ;
     }
-    
+    .expansion{
+        height: 70vh;
+    }
     #footer{
         display: flex;
         justify-content: center;
